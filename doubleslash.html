@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表页面</title>
+		<link rel="stylesheet" type="text/css" href="/gui2/frame/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="/gui2/js/plug/bootstrap-daterangepicker-master/daterangepicker-bs3.css">
+		<link rel="stylesheet" type="text/css" href="/gui2/js/plug/clockpicker-gh-pages/dist/bootstrap-clockpicker.min.css" />
+		<link rel="stylesheet" type="text/css" href="/gui2/css/common/base.css" />
+		<script type="text/javascript">
+			var $$c = {
+				staticUrl : "http://s.demo.shangquanquan.com" ,//静态资源地址
+				uploadUrl : 'http://v0.api.upyun.com/sqqimg',//图片上传的url前缀 
+				resHost: 'http://sqqimg.b0.upaiyun.com', //图片上传完的url前缀
+				domain: '' //网站主域名
+			};
+		</script>
+	</head>
+	<body>
+		<div class="gui-container">
+			<div class="gui-wrapper clearfix">
+				<div class="gui-leftbar">
+					<div class="gui-logo">
+						<a href="#" class="logo"><img src="/gui2/img/common/logo.png" alt=""><span>数据</span></a>
+						<span class="g-hidechangelogo g-icon icon-logo"></span>
+					</div>
+					<ul class="gui-nav">
+						<li class="gui-navlev1 gui-acting-navli">
+							<a class="gui-navlev1-href" href="javascript:;">大盘总览<span class="gui-navlev1-icon g-icon icon-dashbord"></span></a>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">流量分析<span class="gui-navlev1-icon g-icon icon-flowanalyse"></span></a>
+							<ul class="gui-navlev2">
+								<li><a href="#">列表11</a></li>
+								<li><a href="#">列表12</a></li>
+								<li><a href="#">列表13</a></li>
+							</ul>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">会员分析<span class="gui-navlev1-icon g-icon icon-member2"></span></a>
+							<ul class="gui-navlev2">
+								<li><a href="#">列表21</a></li>
+								<li><a href="#">列表22</a></li>
+								<li><a href="#">列表23</a></li>
+							</ul>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">营销分析<span class="gui-navlev1-icon g-icon icon-markting"></span></a>
+							<ul class="gui-navlev2">
+								<li><a href="#">列表31</a></li>
+								<li><a href="#">列表32</a></li>
+								<li><a href="#">列表33</a></li>
+							</ul>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">商户<span class="gui-navlev1-icon g-icon icon-storeplatform"></span></a>
+							<ul class="gui-navlev2">
+								<li><a href="#">列表31</a></li>
+								<li><a href="#">列表32</a></li>
+								<li><a href="#">列表33</a></li>
+							</ul>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">优惠券<span class="gui-navlev1-icon g-icon icon-coupon"></span></a>
+							<ul class="gui-navlev2">
+								<li><a href="#">列表31</a></li>
+								<li><a href="#">列表32</a></li>
+								<li><a href="#">列表33</a></li>
+							</ul>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">活动<span class="gui-navlev1-icon g-icon icon-event"></span></a>
+							<ul class="gui-navlev2">
+								<li><a href="#">列表31</a></li>
+								<li><a href="#">列表32</a></li>
+								<li><a href="#">列表33</a></li>
+							</ul>
+						</li>
+						<li class="gui-navlev1">
+							<a class="gui-navlev1-href" href="javascript:;">Mall Show<span class="gui-navlev1-icon g-icon icon-mallshow"></span><i>bate</i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="gui-content">
+					<header>
+						<div class="gui-headri">
+							<div class="gui-rilebtns clearfix">
+								<a id="j_ChangeNavBtn" href="javascript:;" class="gui-pagebtns g-icon icon-shrink"></a>
+								<a id="j_showReturnMsg" href="javascript:;" class="gui-pagebtns g-icon icon-feedback"></a>
+							</div>
+							<div class="gui-rightmode clearfix">
+								<div class="gui-workbtns dropdown">
+									<div id="dLabel" class="gui-headri-sev1 dropbtn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<a class="gui-loadface" href="javascript:;">
+											<i><img src="/gui2/img/login/face.jpg" alt="" /></i>
+											随便写写名字
+										</a>
+									</div>
+									<ul class="gui-headri-sev2 dropdown-menu"  role="menu" aria-labelledby="dLabel">
+										<li><a href="#"><i class="gui-headri-math"><img src="/gui2/img/login/dataplatform_icon.png" alt="" /></i><span>大数据平台</span></a></li>
+										<li><a href="#"><i class="gui-headri-store"><img src="/gui2/img/login/shoppingcenterplatform_icon.png" alt="" /></i><span>商管后台</span></a></li>
+									</ul>
+								</div>
+								<div class="gui-workbtns">|</div>
+								<div class="gui-workbtns"><a class="gui-headri-sev1" href="javascript:;">退出</a></div>
+							</div>
+						</div>
+					</header>
+					<div class="gui-main">
+						<div>
+							<div class="gui-crumbs">
+								<a href="#">首页</a>
+								<span>&gt;</span>
+								<a href="#">再来一级</a>
+								<span>&gt;</span>
+								xxx页面
+							</div>
+							<!--page start-->
+								<div class="gui-block gui-bg-white">
+									<a href="#" class="g-closepage"></a>
+									<h3 class="g-pagetitle">页面名称</h3>
+									<div class="g-table-form"></div>
+									<div class="g-table-wraper">
+										<a href="//www.baidu.com">双斜线</a>
+									</div>
+									<div class="gui-paper">
+										<a href="#">&lt;上一页</a>
+										<a class="gui-paging-act" href="#">1</a>
+										<a class="gui-paging-item" href="#">2</a>
+										<a class="gui-paging-item" href="#">3</a>
+										<a class="gui-paging-item" href="#">4</a>
+										<a class="gui-paging-item" href="#">5</a>
+										<span class="gui-paging-empty">...</span>
+										<a href="#">下一页&gt;</a>&nbsp;&nbsp;&nbsp;&nbsp;
+										<span>共25页</span>
+									</div>
+								</div>
+							<!--page end-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gui-leftbg"></div>
+		</div>
+		<footer>
+			<div class="footercon">
+				<p>服务电话:010-88888888 ; |  服务邮箱:yx-service@shangquanquan.com  |  关注万江龙微信服务号:wanjianglong</p>
+				<p>©2014 武汉万江龙网络有限公司 鄂ICP证030173号</p>
+			</div>
+		</footer>
+		<script src="//s.demo.shangquanquan.com/gui2/js/lib/jquery-2.1.1.min.js" type="text/javascript"></script>
+		<script src="/gui2/frame/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/gui2/js/common/base.js" type="text/javascript"></script>
+		<script src="/gui2/js/plug/jquery-validation-1.13.1/lib/jquery.form.js" type="text/javascript"></script>
+		<script src="/gui2/js/plug/jquery-validation-1.13.1/dist/jquery.validate.min.js" type="text/javascript"></script>
+		<script src="/gui2/js/common/list.js" type="text/javascript"></script>
+	</body>
+</html>
